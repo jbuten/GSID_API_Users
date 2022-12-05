@@ -1,0 +1,12 @@
+FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
+WORKDIR /app
+EXPOSE 80
+EXPOSE 443
+
+FROM base AS final
+WORKDIR /app
+COPY . .
+ENTRYPOINT ["dotnet", "GSID.ApiUsers.dll"]
+
+#sudo docker build -t gsid_apiusers .
+#sudo docker run -d -p 8010:80 --name myapp gsid_apiusers

@@ -1,0 +1,14 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users/$entity",
+  "businessPhones": [ "1136" ],
+  "displayName": "Buten Peralta, Jose Manuel",
+  "givenName": "Jose Manuel",
+  "jobTitle": "Gerente de Desarrollo de Sistemas",
+  "mail": "J.Buten@mercasid.com.do",
+  "mobilePhone": "829-470-5610",
+  "officeLocation": "Site MercaSID",
+  "preferredLanguage": null,
+  "surname": "Buten Peralta",
+  "userPrincipalName": "J.Buten@mercasid.com.do",
+  "id": "4cc6b846-054f-410f-9668-84c458bf3b58"
+}
